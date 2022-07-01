@@ -1,7 +1,7 @@
 import {create} from 'apisauce'
 
 const apiClient = create({
-    baseURL:'http://127.0.0.1:8000/api/'
+    baseURL:'http://gradebook-project.herokuapp.com/api/'
 })
 
 export default apiClient;
