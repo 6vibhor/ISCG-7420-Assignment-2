@@ -78,8 +78,12 @@ WSGI_APPLICATION = 'gradebook.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'd251p0la7pq4tk',
+        'USER': 'pzltlofgslwaew',
+        'PASSWORD': '54bc9444949249df26ebb6e3ea8be01fc32adf2ee41cdc8ea56f8eab98644b7c',
+        'HOST': 'ec2-3-217-14-181.compute-1.amazonaws.com',
+        'PORT': '5432',
     }
 }
 
